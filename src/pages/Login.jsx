@@ -1,7 +1,7 @@
-
-export default function login() {
+const Login = () => {
   return (
-    <div className="login">
+    <>
+    <section className="login">
         <div className="loginWrapper">
             <div className="loginLeft">
                 <h3 className="loginLogo">React Jobs</h3>
@@ -20,6 +20,10 @@ export default function login() {
                 </div>
             </div>
         </div>
-    </div>
-  )
-}
+    </section>
+    </>
+  );
+};
+
+
+export default Login;

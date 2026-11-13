@@ -21,4 +21,4 @@ const Hero = ({ title="Become a React Dev", subtitle="Find the React Job that fi
   )
 }
 
-export default Hero
+export default Hero;
